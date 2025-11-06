@@ -1,0 +1,150 @@
+<!DOCTYPE hml>
+<html>
+<head>
+<title>
+GOQuest-Book Now 
+</title>
+<style>
+body{
+background-color:#ccffff;
+}
+header{
+background-image:url(form.1.png);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+border:solid black 5px;
+      color:white;
+      text-align: center;
+	  padding: 20px;
+}
+img{
+width:150px;
+height:150px;
+border-radius:30%;
+border:solid black 5px; 
+margin-right:100%;   
+}  
+form{
+border: solid black 3px ;
+}
+nav {
+      background: #004d40;
+	  display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+	      }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+	
+	nav a:hover {
+      text-decoration: underline;
+    }
+footer{
+	text-align:center;
+	background-color: #f0f5f9;
+	}
+
+
+
+</style>
+</head>
+<body>
+<header>
+<a href="homepage.html"><img src="logo.png" alt="img is not showing"></img></a>
+</header>
+<br>
+<br>
+<br>
+<center>
+<h1>Book Now</h1>
+</center>
+<center>
+  <form class="booking-form">
+    <h2>Adventure Booking Form</h2>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+<br>
+<br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+<br>
+<br>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+<br>
+<br>
+
+    <label for="location">Preferred Location</label>
+    <input type="text" id="location" name="location" placeholder="Enter destination (e.g. Rishikesh)" required>
+<br>
+<br>
+
+    <label for="adventure-type">Adventure Type</label>
+    <select id="adventure-type" name="adventure-type" required>
+      <option value="">-- Select Adventure --</option>
+      <option>Skydiving</option>
+      <option>Scuba Diving</option>
+      <option>Rock Climbing</option>
+      <option>Trekking</option>
+      <option>Paragliding</option>
+      <option>River Rafting</option>
+    </select>
+<br>
+<br>
+
+    <label for="date">Preferred Date</label>
+    <input type="date" id="date" name="date" required>
+<br>
+<br>
+
+    <label for="people">Number of People</label>
+    <input type="number" id="people" name="people" min="1" max="20" required>
+<br>
+<br>
+
+    <label for="payment">Payment Method</label>
+    <select id="payment" name="payment" required>
+      <option value="">-- Select Payment Method --</option>
+      <option>Credit/Debit Card</option>
+      <option>UPI</option>
+      <option>Net Banking</option>
+      <option>Pay on Arrival</option>
+    </select>
+<br>
+<br>
+
+    <label for="message">Special Requests</label>
+    <textarea id="message" name="message" placeholder="Any special request or note..."></textarea>
+<br>
+<br>
+
+    <button type="submit">Book Adventure</button>
+
+    <p>Your adventure starts here! </p>
+  </form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <nav>
+<h2><a href="About us.html">About US</a></h2>
+<h2><a href="package.html">Packages</a></h2>
+<h2><a href="Book Now.html">Book Now</a></h2>
+<h2><a href="Contact US.html">Contact US</a></h2>
+  </nav>
+
+</center
+  <footer>
+   <p>&copy; 2025 GoQuest Adventures. All rights reserved.
+  </footer>
+</body>
+</html>
